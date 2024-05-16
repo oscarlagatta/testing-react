@@ -14,8 +14,6 @@ test('can receive a new user and show it on a list', async () => {
         name: /email/i
     });
 
-
-
     const button = screen.getByRole('button');
 
     // Simulate typing in a name
