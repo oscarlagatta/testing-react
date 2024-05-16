@@ -1,7 +1,6 @@
 import {render, screen} from "@testing-library/react";
 import user from "@testing-library/user-event";
 import UserForm from "./UserForm";
-import UserList from "./UserList";
 
 test("it shows two inputs and a button", () => {
     // render the component
